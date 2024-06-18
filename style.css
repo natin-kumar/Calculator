@@ -1,0 +1,49 @@
+.container{
+    height: 327px;
+    width: 250px;
+    border: 1px solid black;
+}
+#input, #output{
+    width: 244px;
+    height: 30px
+}
+.operators{
+    display: flex;
+}
+.op,.col{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 61px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cal-container{
+    margin: 10% 10% 10% 35%;
+}
+.row{
+    display: flex;
+}
+.clr{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clr:hover{
+    background-color: red;
+}
+.op:hover{
+    background-color: red;
+}
+.col:hover{
+    background-color: red;
+}

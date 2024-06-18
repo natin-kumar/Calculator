@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cal-container">
+        <div class="container">
+            <div class="inp-out">
+                <input type="text" name="" id="input" disabled>
+                <br>
+                <input type="number" name="" id="output" placeholder="Result" disabled>
+            </div>
+            <div class="operators">
+                <div onclick="number(this)" class="op">+</div>
+                <div onclick="number(this)" class="op">-</div>
+                <div onclick="number(this)" class="op">*</div>
+                <div onclick="number(this)" class="op">/</div>
+            </div>
+            <div class="num">
+                <div class="row">
+                    <div onclick="number(this)" class="col">7</div>
+                    <div onclick="number(this)" class="col">8</div>
+                    <div onclick="number(this)" class="col">9</div>
+                    <div onclick="number(this)" class="col">00</div>
+                </div>
+                <div class="row">
+                    <div onclick="number(this)" class="col">4</div>
+                    <div onclick="number(this)" class="col">5</div>
+                    <div onclick="number(this)" class="col">6</div>
+                    <div onclick="number(this)" class="col">.</div>
+                </div>
+                <div class="row">
+                    <div onclick="number(this)" class="col">1</div>
+                    <div onclick="number(this)" class="col">2</div>
+                    <div onclick="number(this)" class="col">3</div>
+                    <div onclick="resultexp()" class="col">=</div>
+                </div>
+                <div class="row">
+                    <div onclick="number(this)" class="col">0</div>
+                    <div onclick="reset()" class="clr">clear</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
